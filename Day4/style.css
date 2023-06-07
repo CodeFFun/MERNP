@@ -1,0 +1,126 @@
+/* .container{
+    width: 90%;
+    margin:auto;
+    background: gray;
+    height: 600px;
+    position: relative;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.box4{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+
+.header{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    background-color: #000000;
+    display: flex;
+    justify-content:space-between;
+}
+
+.box{
+    width: 400px;
+    height: 50px;
+    background-color: red;
+}
+
+.box3{
+    display: flex;
+    height: 150px !important;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box4{
+    width: 30%;
+    height: 40px;
+    background-color: #000000;
+}
+
+.menu{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: yellow;
+}
+
+.aside{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.aside1{
+    width: 90%;
+    height: 70%;
+    margin: 30px;
+    background-color: aqua;
+}
+.aside2{
+    width: 90%;
+    height: 70%;
+    margin: 30px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.aside3{
+    width: 80%;
+    height: 90%;
+    background-color: green;
+    margin-left: 30px;
+}
+
+.body{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.body1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+
