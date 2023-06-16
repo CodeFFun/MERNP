@@ -17,10 +17,21 @@
 
 // close()
 
-const myCK = () => {
-    let dt = new Date()
-    let tm = dt.toLocaleTimeString()
-    document.querySelector('.result').innerHTML = tm
+// const myCK = () => {
+//     let dt = new Date()
+//     let tm = dt.toLocaleTimeString()
+//     document.querySelector('.result').innerHTML = tm
+// }
+
+// setInterval(myCK, 1000)
+
+const colors = ['black', 'blue', 'green', 'red', 'blue'];
+
+const box = () => {
+    colors.forEach((color) => {
+    console.log(color)
+    })
 }
 
-setInterval(myCK, 1000)
+box()
+
